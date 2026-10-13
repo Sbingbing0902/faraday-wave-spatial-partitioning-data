@@ -1,0 +1,6 @@
+pattern_id,model,main_parameter_name,main_parameter_value,main_parameter_unit,geometric_rmse_px,geometric_r2
+(a),Uniaxial line,theta_tilt,1.92,degree,1,0.995
+(b),1:1 ellipse,B_over_A,0.0577,dimensionless,0.97,0.9989
+(c),1:2 Lissajous,B_over_A,0.2048,dimensionless,3.67,0.9674
+(d),Generalized deltoid,r2,0.2239,dimensionless,2.07,0.9885
+(e),Fundamental and third harmonic,r3,0.0232,dimensionless,0.61,0.9996

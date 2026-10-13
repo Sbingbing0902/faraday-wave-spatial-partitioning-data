@@ -1,0 +1,12 @@
+drive_frequency_hz,approx_spot_area_px2,graphical_readout_uncertainty_px2,unit
+78,1700,250,pixel^2
+79,2600,250,pixel^2
+80,4000,250,pixel^2
+81,5500,250,pixel^2
+82,7900,250,pixel^2
+83,11700,250,pixel^2
+84,15400,250,pixel^2
+85,16400,250,pixel^2
+86,23700,250,pixel^2
+87,24800,250,pixel^2
+88,27700,250,pixel^2

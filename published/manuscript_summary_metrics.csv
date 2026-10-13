@@ -1,0 +1,36 @@
+analysis_group,metric,reported_value,unit,qualifier
+frequency_scan,drive_frequency_min,76,Hz,range endpoint
+frequency_scan,drive_frequency_max,91,Hz,range endpoint
+frequency_scan,drive_frequency_step,1,Hz,nominal step
+frequency_scan,subharmonic_reference_ratio,0.5,unitless,frequency f_surface/f_drive
+frequency_scan,mean_absolute_peak_residual,0.169,Hz,manuscript-reported rounded
+frequency_scan,rms_peak_residual,0.241,Hz,manuscript-reported rounded
+frequency_scan,mean_peak_residual,0.168,Hz,as labelled in regression discussion
+frequency_regression,slope,0.9992,dimensionless,measured frequency versus fdrive/2
+frequency_regression,slope_95ci_lower,0.9562,dimensionless,95% CI lower
+frequency_regression,slope_95ci_upper,1.0423,dimensionless,95% CI upper
+frequency_regression,intercept,0.201,Hz,intercept
+frequency_regression,intercept_95ci_lower,-1.599,Hz,95% CI lower
+frequency_regression,intercept_95ci_upper,2.001,Hz,95% CI upper
+frequency_regression,r_squared,0.9944,dimensionless,R2 regression
+frequency_resolution,fft_bin_spacing,0.156,Hz,"1/6.40s, rounded"
+spatial_partition,central_azimuthal_order_m,6,dimensionless,dominant azimuthal order
+spatial_partition,central_precession_rate,-3.23,degree/s,approximate; clockwise sign convention
+spatial_partition,outer_radial_drift_rms,2.38,pixel,RMS radial displacement
+mode_splitting,full_signed_splitting,-0.1077,Hz,"model inferred, NOT directly resolved"
+mode_splitting,half_signed_splitting,-0.0538,Hz,"model inferred, NOT directly resolved"
+spot_dynamics,peripheral_length_min,520,pixel,reported extent
+spot_dynamics,peripheral_length_max,670,pixel,reported extent
+spot_dynamics,peripheral_cycle,25,ms,reported time span
+spot_area,frequency_min,78,Hz,scan endpoint
+spot_area,frequency_max,88,Hz,scan endpoint
+spot_area,start_area_approx,1700,pixel^2,rough value extracted from prose math
+spot_area,end_area_approx,27500,pixel^2,rough value extracted from prose math
+spot_area,area_growth_factor_approx,15,dimensionless,paper states approximately 15-fold
+spot_area,area_at_82hz_approx,8000,pixel^2,rough value extracted from prose math
+spot_area,area_at_85hz_approx,16500,pixel^2,rough value extracted from prose math
+spot_area,area_at_86hz_approx,23800,pixel^2,rough value extracted from prose math
+spot_area_model,piecewise_85hz_delta_AICc,4.34,dimensionless,relative to quadratic minimum
+spot_area_model,linear_delta_AICc,31.17,dimensionless,relative to quadratic minimum
+optical_gain,vertical_incidence_plane,2.22,m_per_unit_slope,"computed reference at 82deg, L=1.1m"
+optical_gain,horizontal_transverse,0.306,m_per_unit_slope,"computed reference at 82deg, L=1.1m"

@@ -1,0 +1,45 @@
+field,value,unit,source_section,qualifier
+tank_length,500,mm,Sec. III.A,exact nominal
+tank_width,300,mm,Sec. III.A,exact nominal
+tank_height,300,mm,Sec. III.A,exact nominal
+water_depth,250,mm,Sec. III.A,reported
+water_temp_nominal,25,degC,Sec. III.A,reported
+water_temp_tolerance,0.1,degC,Sec. III.A,reported ¡À
+no_drive_relaxation,10,min,Sec. III.A,reported
+source_model,UW60L,label,Sec. III.A,reported
+source_effective_diameter,200,mm,Sec. III.A,approximately
+source_axial_thickness,78,mm,Sec. III.A,approximately
+stage_position_resolution,0.01,mm,Sec. III.A,reported
+source_face_depth,50,mm,Sec. III.A,reported
+source_laser_horizontal_separation,80,mm,Sec. III.A,reported
+generator,RIGOL DG1022Z,label,Sec. III.A,reported
+amplifier,Crown XLS 1002,label,Sec. III.A,reported
+source_terminal_voltage,10,V RMS,Sec. III.A,reported
+nominal_load,16,ohm,Sec. III.A,reported
+nominal_electrical_power,6.25,W,Sec. III.A,computed from nominal load
+laser_wavelength,632.8,nm,Sec. III.B,reported
+incidence_angle_from_surface_normal,82,degree,Sec. III.B,reported
+laser_footprint_dimension_1,2.4,mm,Sec. III.B,measured surface footprint
+laser_footprint_dimension_2,2.3,mm,Sec. III.B,measured surface footprint
+screen_orientation,vertical,label,Sec. III.B,reported
+ray_path_distance_to_screen,1.1,m,Sec. III.B,reported along mean reflected ray
+screen_yaw,not quantified,label,Sec. III.B,uncertain actual angle
+camera_model,DCXG100 UVC USB 2.0 CMOS,label,Sec. III.B,both cameras
+screen_camera_frame_rate,120,frames/s,Sec. III.B,reported
+top_view_frame_rate_max,200,frames/s,Sec. III.B,maximum camera capability
+analysis_frame_rate,120,frames/s,Sec. III.C,reported
+image_width,1280,pixel,Sec. III.B,reported
+image_height,800,pixel,Sec. III.B,reported
+analysis_window_frames,768,frames,Sec. III.C,reported
+analysis_window_duration,6.4,s,Sec. III.C,reported
+analysis_windows_per_run,3,windows,Sec. III.C,reported
+independent_runs,3,runs,Sec. III.C,reported
+run_recording_duration,30,s,Sec. III.C,reported
+camera_sync_offset_jitter,1,ms,Sec. III.C,approximately
+registration_residual_error,0.2,pixel,Sec. III.D,approximately
+radial_map_ray_count,360,rays,Sec. III.D,reported
+angular_ray_step,1,degree,Sec. III.D,reported
+min_segment_component_size,50,pixel,Sec. III.D,reported
+contour_resampling_points,500,points,Sec. III.E,reported
+segmentation_threshold_perturbation,10,percent,Sec. III.E,sensitivity ¡À
+bootstrap_refits,1000,refits,Sec. III.E,reported
